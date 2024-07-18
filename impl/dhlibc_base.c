@@ -27,7 +27,7 @@ dh_memcpy(void *restrict dest, const void *restrict src, size_t n)
     char *ptr_src, *ptr_dest;
     ptr_src = (char *)src;
     ptr_dest = (char *)dest;
-    for (int i=0; i<n; i++)
+    for (size_t i=0; i<n; i++)
     {
        ptr_dest[i] = ptr_src[i];
     }

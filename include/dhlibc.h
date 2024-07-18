@@ -1,5 +1,5 @@
-#ifndef __LIBFT_H__
-#define __LIBFT_H__
+#ifndef __LIBDH_H__
+#define __LIBDH_H__
 
 #include <stddef.h>
 #include <stdlib.h>
@@ -129,5 +129,9 @@ void dh_lstclear(t_list **lst, void (*del)(void *));
 void dh_lstiter(t_list *lst, void (*f)(void *));
 
 t_list *dh_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+
+//printf
+int dh_printf(const char *restrict format, ...);
 
 #endif

@@ -1,0 +1,165 @@
+#include "./include/dhlibc.h"
+#include <stdio.h>
+
+int
+main()
+{
+//    dh_printf("hello world %d", 3);
+//    dh_printf("hello world %d %d", 3, 10);
+//    dh_printf("hello world %d %d %i\n", 3, 10, 100);
+//    dh_printf("hello world %d \n", -3, 10, 100);
+//    dh_printf("hello %corld\n", 'w');
+//    dh_printf("hello %s\n", "world");
+//    dh_printf("rep of 48: %x\n", 48);
+//    dh_printf("rep of 0xfff: %x\n", 0xfff);
+//    dh_printf("rep of 48: %X\n", 48);
+//    dh_printf("rep of 0xfff: %X\n", 0xfff);
+//    dh_printf("ptr rep of 48: %p\n", (void*)48);
+//    dh_printf("ptr rep of 0xfff: %p\n", (void *)0xfff);
+//    dh_printf("ptr rep of 0x0: %p\n", (void *)0x0);
+//    dh_printf("percentage: %d%%\n", 92);
+    dh_printf("hello world %d", 3);
+    dh_printf("hello world %d %d", 30, 100);
+    dh_printf("hello world %d %d %d\n", 30, 100, 20);
+
+//    dh_printf("rep of 48: %X\n", 48);
+//    dh_printf("#rep of 48: %#X\n", 48);
+//    dh_printf("#rep of 0: %#X\n", 0);
+//    dh_printf("#rep of 100: %#x\n", 100);
+//    dh_printf("%10d\n", 100);
+//    dh_printf("%100d\n", 100);
+//    dh_printf("%100.10d\n", 100);
+//    dh_printf("%0100.10d\n", 100);
+//    dh_printf("right %100c\n", 'h');
+//    dh_printf("left %-100c\n", 'h');
+//    dh_printf("left: %-10d\n", 10);
+//    dh_printf("right: %10d\n", 10);
+//    dh_printf("right: %010d\n", 10);
+//    dh_printf("right0: %010x\n", 10);
+//    dh_printf("right#: %#10x\n", 10);
+//    dh_printf("right#0: %#x\n", 0);
+//    dh_printf("right#0: %#10x\n", 0);
+//    dh_printf("right0: %010X\n", 10);
+//    dh_printf("right#: %#10X\n", 10);
+//    dh_printf("right#0: %#X\n", 0);
+//    dh_printf("right#0: %#10X\n", 0);
+//    dh_printf("ptr right#0: %10p\n", (void *)0);
+//    dh_printf("ptr right#0: %10p\n", (void *)10);
+//    dh_printf("str right#0: %10s\n", "dhanus");
+//    dh_printf("perc right: %10%\n");
+
+    dh_printf("left: %-10.5d**\n", 10);
+    dh_printf("left: %-10.15d**\n", 10);
+    dh_printf("right: %10.5d**\n", 10);
+    dh_printf("right: %010.5d**\n", 10);
+    dh_printf("right0: %010.5x**\n", 10);
+    dh_printf("right#: %#10.5x**\n", 10);
+    dh_printf("right#0: %#.5x**\n", 0);
+    dh_printf("right#0: %#10.5x**\n", 0);
+    dh_printf("right#: %#10.15x**\n", 10);
+    dh_printf("right: %10.15x**\n", 10);
+    dh_printf("right0: %010.5X**\n", 10);
+    dh_printf("right#: %#10.5X**\n", 10);
+    dh_printf("right#0: %#.5X**\n", 0);
+    dh_printf("right#0: %#10.5X**\n", 0);
+    dh_printf("right: %10p**\n", (void*)10);
+    dh_printf("right: %10p**\n", (void*)0);
+    dh_printf("right: %-10p**\n", (void*)0);
+    dh_printf("right: %s**\n", "dhanus");
+    dh_printf("right: %10s**\n", "dhanus");
+    dh_printf("right: %10.3s**\n", "dhanus");
+    dh_printf("right: %+10.3d**\n",100);
+    dh_printf("right: % 10.3d**\n",100);
+    dh_printf("right: %+10.3d**\n",-100);
+    dh_printf("right: % 10.3d**\n",-100);
+    dh_printf("right: %10.3d**\n",-100);
+    dh_printf("right: %10.3d**\n",100);
+
+    dh_printf("\n***\n");
+    printf("\n***\n");
+
+    printf("hello world %d", 3);
+    printf("hello world %d %d", 30, 100);
+    printf("hello world %d %d %d\n", 30, 100, 20);
+
+//    printf("rep of 48: %X\n", 48);
+//    printf("#rep of 48: %#X\n", 48);
+//    printf("#rep of 0: %#X\n", 0);
+//    printf("#rep of 100: %#x\n", 100);
+//    printf("%10d\n", 100);
+//    printf("%100d\n", 100);
+//    printf("%100.10d\n", 100);
+//    printf("%0100.10d\n", 100);
+//    printf("%100.10c\n", 'h');
+//    printf("right %100c\n", 'h');
+//    printf("left %-100c\n", 'h');
+//    printf("left: %-10d\n", 10);
+//    printf("right: %10d\n", 10);
+//    printf("right: %010d\n", 10);
+//    printf("right0: %010x\n", 10);
+//    printf("right#: %#10x\n", 10);
+//    printf("right#0: %#x\n", 0);
+//    printf("right#0: %#10x\n", 0);
+//    printf("right0: %010X\n", 10);
+//    printf("right#: %#10X\n", 10);
+//    printf("right#0: %#X\n", 0);
+//    printf("right#0: %#10X\n", 0);
+//    printf("ptr right#0: %10p\n", (void *)0);
+//    printf("ptr right#0: %10p\n", (void *)10);
+//    printf("str right#0: %10s\n", "dhanus");
+//    printf("perc right: %10%\n");
+    
+    printf("left: %-10.5d**\n", 10);
+    printf("left: %-10.15d**\n", 10);
+    printf("right: %10.5d**\n", 10);
+    printf("right: %010.5d**\n", 10);
+    printf("right0: %010.5x**\n", 10);
+    printf("right#: %#10.5x**\n", 10);
+    printf("right#0: %#.5x**\n", 0);
+    printf("right#0: %#10.5x**\n", 0);
+    printf("right#: %#10.15x**\n", 10);
+    printf("right: %10.15x**\n", 10);
+    printf("right0: %010.5X**\n", 10);
+    printf("right#: %#10.5X**\n", 10);
+    printf("right#0: %#.5X**\n", 0);
+    printf("right#0: %#10.5X**\n", 0);
+    printf("right: %10p**\n", (void*)10);
+    printf("right: %10p**\n", (void*)0);
+    printf("right: %-10p**\n", (void*)0);
+    printf("right: %s**\n", "dhanus");
+    printf("right: %10s**\n", "dhanus");
+    printf("right: %10.3s**\n", "dhanus");
+    printf("right: %+10.3d**\n",100);
+    printf("right: % 10.3d**\n",100);
+    printf("right: %+10.3d**\n",-100);
+    printf("right: % 10.3d**\n",-100);
+    printf("right: %10.3d**\n",-100);
+    printf("right: %10.3d**\n",100);
+
+//    printf("hello world %d", 3);
+//    printf("hello world %d", 3);
+//    printf("hello world %d %d", 3, 10);
+//    printf("hello world %d %d %i\n", 3, 10, 100);
+//    dh_printf("hello world %d \n", -3, 10, 100);
+//    printf("hello %corld\n", 'w');
+//    printf("hello %s\n", "world");
+//    printf("rep of 48: %x\n", 48);
+//    printf("rep of 0xfff: %x\n", 0xfff);
+//    printf("rep of 48: %X\n", 48);
+//    printf("rep of 0xfff: %X\n", 0xfff);
+//    printf("ptr rep of 48: %p\n", (void*)48);
+//    printf("ptr rep of 0xfff: %p\n", (void *)0xfff);
+//    printf("ptr rep of 0x0: %p\n", (void *)0x0);
+//    printf("percentage: %d%%\n", 92);
+//    printf("hello world (with #) %#d\n", 3);
+//    printf("hello world (without #) %d\n", 3);
+//    printf("hello world (with 0) %0d\n", 3);
+//    printf("hello world (with +) %+d\n", 3);
+//    printf("hello world (with  ) % d\n", 3);
+//    printf("hello world (with *) %15d\n", 3);
+//    printf("hello world (with *0) %015d\n", 3);
+//    printf("hello world (with p) %.2d\n", 3);
+//    printf("hello world (with p*) %.*d\n", 5, 3);
+//    printf("hello world (with #0) %#010d\n", 3);
+}
+
